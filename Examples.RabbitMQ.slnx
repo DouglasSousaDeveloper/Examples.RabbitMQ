@@ -2,5 +2,6 @@
   <Folder Name="/src/">
     <Project Path="Consumer/Consumer.csproj" />
     <Project Path="Domain/Domain.csproj" />
+    <Project Path="Producer/Producer.csproj" />
   </Folder>
 </Solution>
