@@ -1,9 +1,9 @@
 ﻿using RabbitMQ.Client;
 using System.Text.Json;
 
-const string exchangeName = "pedido.exchange";
-const string queueName = "pedido.queue";
-const string routingKey = "pedido.criado";
+const string exchangeName = "customer.exchange";
+const string queueName = "customer.queue";
+const string routingKey = "customer.create";
 
 var factory = new RabbitMQ.Client.ConnectionFactory()
 {
